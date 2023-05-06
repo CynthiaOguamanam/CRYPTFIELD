@@ -1,0 +1,205 @@
+import React from 'react'
+import { ContainerMain,
+    H1,
+    Numbers,
+    P1, 
+    Fisrt,
+    SecondContainer,
+    Second,
+    ThirdContainer,
+    FirstThird,
+    SecondThird,
+    One,
+    Two,
+    Three,
+    Select,
+    Select2,
+    Option,
+    F,
+    Go,
+    Divs,
+    Transaction,
+    Duration,
+    Type,
+    Amount,
+    Date
+ } from './StyledHistory';
+
+ 
+const History = () => {
+  return (
+   <ContainerMain>
+       <H1>Replenishement History</H1>
+         <SecondContainer>
+         <Fisrt>
+            <P1>Number of replenishment</P1>
+            <Numbers>0</Numbers>
+        </Fisrt>
+        <Second>
+            <P1>Replenishment amount</P1>
+            <Numbers>000000 ₿</Numbers>
+        </Second>
+         </SecondContainer>
+         <ThirdContainer>
+              <FirstThird>
+                 <One>
+                   <Select>
+                   <Option>Withdrawal</Option>
+                    <Option>All Transaction</Option>
+                    <Option>Deposit</Option>
+                    <Option>Earning</Option>
+                    <Option>Referral Commission</Option>
+                   </Select>
+                   <Select>
+                   <Option>All eCurrencies</Option>
+                    <Option>Bitcoin</Option>
+                   </Select>
+                 </One>
+                   <Divs>
+                   <Two>
+                    <F>from :</F>
+                 <Select2>
+                    <Option>Jan</Option>
+                    <Option>Feb</Option>
+                    <Option>March</Option>
+                    <Option>Apr</Option>
+                    <Option>May</Option>
+                    <Option>Jun</Option>
+                    <Option>Jul</Option>
+                    <Option>Aug</Option>
+                    <Option>Sep</Option>
+                    <Option>Oct</Option>
+                    <Option>Nov</Option>
+                    <Option>Dec</Option>
+                   </Select2>
+                   <Select2>
+                    <Option>1</Option>
+                    <Option>2</Option>
+                    <Option>3</Option>
+                    <Option>4</Option>
+                    <Option>5</Option>
+                    <Option>2</Option>
+                    <Option>6</Option>
+                    <Option>7</Option>
+                    <Option>8</Option>
+                    <Option>9</Option>
+                    <Option>10</Option>
+                    <Option>11</Option>
+                    <Option>12</Option>
+                    <Option>13</Option>
+                    <Option>14</Option>
+                    <Option>15</Option>
+                    <Option>16</Option>
+                    <Option>17</Option>
+                    <Option>18</Option>
+                    <Option>19</Option>
+                    <Option>20</Option>
+                    <Option>21</Option>
+                    <Option>22</Option>
+                    <Option>23</Option>
+                    <Option>24</Option>
+                    <Option>25</Option>
+                    <Option>26</Option>
+                    <Option>27</Option>
+                    <Option>28</Option>
+                    <Option>29</Option>
+                    <Option>30</Option>
+                    <Option>31</Option>
+                   </Select2>
+                   <Select2>
+                    <Option>2018</Option>
+                    <Option>2019</Option>
+                    <Option>2020</Option>
+                    <Option>2021</Option>
+                    <Option>2022</Option>
+                    <Option>2023</Option>
+                   </Select2>
+                 </Two>
+                 <Two>
+                    <F>from :</F>
+                 <Select2>
+                 <Option>Jan</Option>
+                    <Option>Feb</Option>
+                    <Option>March</Option>
+                    <Option>Apr</Option>
+                    <Option>May</Option>
+                    <Option>Jun</Option>
+                    <Option>Jul</Option>
+                    <Option>Aug</Option>
+                    <Option>Sep</Option>
+                    <Option>Oct</Option>
+                    <Option>Nov</Option>
+                    <Option>Dec</Option>
+                   </Select2>
+                   <Select2>
+                   <Option>1</Option>
+                    <Option>2</Option>
+                    <Option>3</Option>
+                    <Option>4</Option>
+                    <Option>5</Option>
+                    <Option>2</Option>
+                    <Option>6</Option>
+                    <Option>7</Option>
+                    <Option>8</Option>
+                    <Option>9</Option>
+                    <Option>10</Option>
+                    <Option>11</Option>
+                    <Option>12</Option>
+                    <Option>13</Option>
+                    <Option>14</Option>
+                    <Option>15</Option>
+                    <Option>16</Option>
+                    <Option>17</Option>
+                    <Option>18</Option>
+                    <Option>19</Option>
+                    <Option>20</Option>
+                    <Option>21</Option>
+                    <Option>22</Option>
+                    <Option>23</Option>
+                    <Option>24</Option>
+                    <Option>25</Option>
+                    <Option>26</Option>
+                    <Option>27</Option>
+                    <Option>28</Option>
+                    <Option>29</Option>
+                    <Option>30</Option>
+                    <Option>31</Option>
+                   </Select2>
+                   <Select2>
+                   <Option>2018</Option>
+                    <Option>2019</Option>
+                    <Option>2020</Option>
+                    <Option>2021</Option>
+                    <Option>2022</Option>
+                    <Option>2023</Option>
+                   </Select2>
+                 </Two>
+                   </Divs>
+                 <Three>
+                    <Go>
+                        Go
+                    </Go>
+                 </Three>
+              </FirstThird>
+              <SecondThird>
+                 <Duration>
+                    <Type>
+                        Type
+                    </Type>
+                    <Amount>
+                         Amount
+                    </Amount>
+                    <Date>
+                         Date
+                    </Date>
+                 </Duration>
+                 <Transaction>
+                    No transaction found
+                 </Transaction>
+              </SecondThird>
+         </ThirdContainer>
+   </ContainerMain>
+  )
+}
+
+export default History

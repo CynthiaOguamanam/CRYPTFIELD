@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  /* box-shadow: #FF4D4D 0px 3px 6px, rgba(0, 0, 0, 0.197) 0px 3px 6px;
+   */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  color: #192441;
+  box-shadow: rgba(253, 254, 255, 0.3) 0px 1px 2px 0px, rgba(255, 255, 255, 0.15) 0px 1px 3px 1px;
+/* 
+  box-shadow: #FF4D4D 0px 2px 5px 0px, #FF4D4D 0px 1px 1px 0px; */
+  box-shadow: #FF4D4D 0px 0px 0.25em, #FF4D4D 0px 0.25em 1em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
