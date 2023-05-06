@@ -23,7 +23,7 @@ const Hero1 = () => {
             <Left>
                 <Green data-aos='fade-down' src={green} alt='green_image'/>
                 <Text>
-                    <H66>SWIFT CRYPTO TRADE</H66>
+                    <H66>CRYPT FIELD</H66>
                     <HiArrowDown style={{color: "#42385A"}}/>
                 </Text>
                 <Bottom>
@@ -223,9 +223,10 @@ color: #42385A;
 margin: 15px 0 0 0;
 `;
 const H66 = styled.div`
-font-size: 18px;
+font-size: 20px;
 color: #42385A;
 margin: 15px 0 0 0;
+font-weight: 500;
 
 `;
 /* const Right = styled.div``;
