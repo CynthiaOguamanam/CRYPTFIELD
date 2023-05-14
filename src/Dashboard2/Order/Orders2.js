@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import {AiFillHome} from 'react-icons/ai'
 // import usdt from './
 import bgbg from './bgbg.jpg';
+import Modal from './Modal'
 
 const Orders = () => {
+
+    const [modal, setModal] = useState(false)
 
   return (
     <Container>
@@ -40,26 +43,46 @@ const Orders = () => {
             <div>Plan ID: 1</div>
             <div>Starter</div>
             <div>Calculate your profit</div>
-            <Button2>Create Order</Button2>
+            <Button2 onClick={() =>{
+                setModal(true)
+            }}>Create Order</Button2>
           </Two>
           <Two>
             <div>Plan ID: 1</div>
             <div>Starter</div>
             <div>Calculate your profit</div>
-            <Button2>Create Order</Button2>
+            <Button2 onClick={() =>{
+                setModal(true)
+            }}>Create Order</Button2>
           </Two>
           <Two>
             <div>Plan ID: 1</div>
             <div>Starter</div>
             <div>Calculate your profit</div>
-            <Button2>Create Order</Button2>
+            <Button2 onClick={() =>{
+                setModal(true)
+            }}>Create Order</Button2>
           </Two>
         </BottomDiv>
+        {
+            modal? (<ModalHold><Modal setModal={setModal}/></ModalHold>) : null
+        }
     </Container>
   )
 }
 
 export default Orders;
+
+const ModalHold = styled.div`
+position: fixed;
+    height: 50vh;
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 100px;
+`;
 
 const One = styled.div`
 width: 35%;
@@ -302,9 +325,9 @@ font-size: 15px;
     color: whitesmoke;
 }
 `;
-const Button2 = styled.div`
+const Button2 = styled.button`
 width: auto;
-height: 30px;
+height: 50px;
 padding:10px 12px;
 /* background-color: #FF4D4D; */
 background-color: #0F192C;
