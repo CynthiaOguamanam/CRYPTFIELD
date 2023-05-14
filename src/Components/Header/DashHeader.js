@@ -7,6 +7,7 @@ import {BiMoneyWithdraw} from 'react-icons/bi'
 import {TbAffiliate} from 'react-icons/tb'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import {Link} from 'react-router-dom'
 
 
 const DashHeader = () => {
@@ -26,27 +27,27 @@ const DashHeader = () => {
             >
                 <NavHold>
                     <AiFillHome/>
-                    <Nav > Home</Nav>
+                    <Nav to='/'> Home</Nav>
                 </NavHold>
                 <NavHold>
                     <RxUpdate/>
-                    <Nav>Update Account</Nav>
+                    <Nav to='/settings'>Update Account</Nav>
                 </NavHold>
                 <NavHold>
                     <MdOutlinePayments/>
-                    <Nav>Make Deposit</Nav>
+                    <Nav to='/walletpage'>Make Deposit</Nav>
                 </NavHold>
                 <NavHold>
                     <BiMoneyWithdraw/>
-                    <Nav>Withdraw</Nav>
+                    <Nav to='/withdraw'>Withdraw</Nav>
                 </NavHold>
                 <NavHold>
                     <MdAddTask/>
-                    <Nav>Orders</Nav>
+                    <Nav to='/deposit'>Orders</Nav>
                 </NavHold>
                 <NavHold>
                     <TbAffiliate/>
-                    <Nav>Affiliate program</Nav>
+                    <Nav to='/qrcodeset'>Affiliate program</Nav>
                 </NavHold>
             </NavWrap>
             <BurgerHold 
@@ -132,7 +133,7 @@ color: white;
 transition :all 400ms
 
 `;
-const Nav = styled.div`
+const Nav = styled(Link)`
 color: white;
 font-weight: bold;
 cursor: pointer;
