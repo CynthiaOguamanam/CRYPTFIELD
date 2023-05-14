@@ -14,6 +14,7 @@ import Faq from './Components/Support/Faq';
 import Howreg from './Components/Support/Howreg';
 import Sendreq from './Components/Support/Sendrequest';
 import Investment from './Components/LandingPage/Land5/Land5';
+import NewsDetailPage from './Components/LandingPage/News/NewsDetailPage';
 // import Dashboard from './Components/Dashboard/Dashboard';
 import Dashboard2 from './Dashboard2/Dashboard2';
 import Setting from './Dashboard2/Setting/Setting'
@@ -35,6 +36,7 @@ const App = () => {
         <Route path="/affiliate" element={<Affiliate/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/arbitage" element={<Arbitage/>}/>
+        <Route path="/newsdetailpage" element={<NewsDetailPage/>}/>
         {/* <Route path="/verify" element={<VerificationPage/>}/> */}
         <Route path="/investment" element={<Investment/>}/>
         <Route path="/support" element={<Support/>}/>

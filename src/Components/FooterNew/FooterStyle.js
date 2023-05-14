@@ -16,6 +16,11 @@ color: #E5AC44;
 font-weight: bold;
 margin: 30px 0;
 font-size: 30px;
+
+@media Screen and (max-width: 768px){
+    font-size: 20px;
+    margin-left: 5px;
+}
 `;
 // export const Social = styled.div`
 // width: 60%;
@@ -55,6 +60,14 @@ color: white;
 font-weight: bold;
 font-size: 13px;
 line-height: 25px;
+
+a{
+    color: white;
+    text-decoration: none;
+    :hover{
+        text-decoration: 1px underline white;
+    }
+}
 @media Screen and (max-width: 425px){
     font-size: 13px;
 }
@@ -69,6 +82,13 @@ color: white;
 font-weight: bold;
 font-size: 13px;
 line-height: 25px;
+a{
+    color: white;
+    text-decoration: none;
+    :hover{
+        text-decoration: 1px underline white;
+    }
+}
 @media Screen and (max-width: 425px){
     font-size: 13px;
     width: 40%;
@@ -84,6 +104,14 @@ color: white;
 font-weight: bold;
 font-size: 13px;
 line-height: 25px;
+
+a{
+    color: white;
+    text-decoration: none;
+    :hover{
+        text-decoration: 1px underline white;
+    }
+}
 
 @media Screen and (max-width: 425px){
     font-size: 13px;

@@ -22,35 +22,35 @@ const Footer = () => {
         <Line3>
             <Col1>
                 <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Market</span>
-                <span>Stocks</span>
-                <span>Forex</span>
-                <span>Crypto currency</span>
-                <span>Non-farm payroll</span>
-                <span>Multi Assets</span>
+                <a href="https://premium-cryptassets.com/register">Stocks</a>
+                <a href="https://premium-cryptassets.com/register">Forex</a>
+                <a href="https://premium-cryptassets.com/register">Crypto currency</a>
+                <a href="https://premium-cryptassets.com/register">Non-farm payroll</a>
+                <a href="https://premium-cryptassets.com/register">Multi Assets</a>
             </Col1>
             <Col1>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Useful Links</span>
-                <span>Home</span>
-                <span>About Us</span>
-                <span>Arbitage</span>
-                <span>Affiliate Program</span>
-                <span>Privacy Policy</span>
-                <span>Register</span>
-                <span>Login</span>
+                <a href="https://premium-cryptassets.com">Home</a> 
+                <a href="https://premium-cryptassets.com/aboutus">About Us</a>
+                <a href="https://premium-cryptassets.com/argitage">Arbitage</a>
+                <a href="https://premium-cryptassets.com/affiliate">Affiliate Program</a>
+                <a href="https://premium-cryptassets.com/faqdet">Privacy Policy</a>
+                <a href="https://premium-cryptassets.com/login">Register</a>
+                <a href="https://premium-cryptassets.com/register">Login</a>
             </Col1>
             <Col2>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Help Center</span>
-                <span>Legal Docs</span>
-                <span>Help Center</span>
-                <span>Reports</span>
-                <span>Get Trading license</span>
+                <a href="https://premium-cryptassets.com">Legal Docs</a>
+                <a href="https://premium-cryptassets.com/support">Help Center</a>
+                <a href="https://premium-cryptassets.com/sendrequest">Reports</a>
+                <a href="https://premium-cryptassets.com/login">Get Trading license</a>
             </Col2>
             <Col3>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Contact Information</span>
-                <span>FAQ's</span>
-                <span>support@premium-cryptassets.com</span>
-                <span>info@premium-cryptassets.com</span>
-                <span>Reports</span>
+                <a href="https://premium-cryptassets.com/support">FAQ's</a>
+                <a href="https://premium-cryptassets.com/sendrequest">support@premium-cryptassets.com</a>
+                <a href="https://premium-cryptassets.com/support">info@premium-cryptassets.com</a>
+                <a href="https://premium-cryptassets.com/faqdet">Reports</a>
             </Col3>
         </Line3>
         <Footer2/>
