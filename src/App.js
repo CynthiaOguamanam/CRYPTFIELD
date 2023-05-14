@@ -5,7 +5,7 @@ import Landing from './Components/LandingPage/Landing';
 import Login from './Components/Auth/Login';
 import SignUp from './Components/Auth/SignUp';
 // import VerificationPage from './Components/Auth/VerificationPage';
-import Footer from './Components/Footer/Footer';
+// import Footer from './Components/Footer/Footer';
 import Affiliate from './Components/Affiliate/Affiliate';
 import AboutUs from './Components/AboutUs/Aboutus';
 import Arbitage from './Components/Arbitage/Arbitage';
@@ -22,6 +22,7 @@ import WalletId from './Dashboard2/Withdraw/WalletId'
 import Private from "./Components/Private"
 import Qrcodeset from "./Dashboard2/Setting/Qrcodeset"
 import Withdraw from "./Dashboard2/Order/Orders2"
+import FooterNew from './Components/FooterNew/Footer'
 
 const App = () => {
   return (
@@ -51,7 +52,8 @@ const App = () => {
         <Route path="/qrcodeset" element={<Qrcodeset/>}/>
         </Route>
       </Routes>
-      <Footer/> 
+      <FooterNew/> 
+      {/* <Footer/>  */}
        </BrowserRouter>
   ) 
 };
