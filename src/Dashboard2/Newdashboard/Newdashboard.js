@@ -20,6 +20,7 @@ const [data, setData] = useState()
 
   useEffect(() =>{
     axios.get(url).then(res => setData(res.data.data))
+    /* eslint-disable-next-line react-hooks/exhaustive-deps */
   }, [])
 
   console.log("This is the data",data)
