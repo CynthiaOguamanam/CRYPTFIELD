@@ -20,6 +20,8 @@ import Setting from './Dashboard2/Setting/Setting'
 import WalletPage from './Dashboard2/History/Wallet'
 import WalletId from './Dashboard2/Withdraw/WalletId'
 import Private from "./Components/Private"
+import Qrcodeset from "./Dashboard2/Setting/Qrcodeset"
+import Withdraw from "./Dashboard2/Order/Orders2"
 
 const App = () => {
   return (
@@ -43,6 +45,10 @@ const App = () => {
         <Route path="/walletpage" element={<WalletPage/>}/>
         <Route path="/walletid" element={<WalletId/>}/>
         <Route path="/settings" element={<Setting/>}/>
+        <Route path="/settings" element={<Setting/>}/>
+        <Route path="/withdraw" element={<Withdraw/>}/>
+        <Route path="/deposit" element={<WalletId/>}/>
+        <Route path="/qrcodeset" element={<Qrcodeset/>}/>
         </Route>
       </Routes>
       <Footer/> 

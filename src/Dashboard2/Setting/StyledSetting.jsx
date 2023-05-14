@@ -3,12 +3,14 @@ import styled from "styled-components";
 export const MainContainer =styled.div`
    width : 100%;
    border-left: 1px solid grey;
+   background-color: #111B2B;
+   height :100%;
 `;
 export const H1 =styled.div`
     font-size: 30px;
     color: whitesmoke;
     margin-left: 60px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     font-weight: bold;
 
     @media Screen and (max-width: 768px){

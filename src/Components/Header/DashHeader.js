@@ -27,11 +27,7 @@ const DashHeader = () => {
             >
                 <NavHold>
                     <AiFillHome/>
-                    <Nav to='/'> Home</Nav>
-                </NavHold>
-                <NavHold>
-                    <RxUpdate/>
-                    <Nav to='/settings'>Update Account</Nav>
+                    <Nav to='/dashboard/:userid'> Home</Nav>
                 </NavHold>
                 <NavHold>
                     <MdOutlinePayments/>
@@ -42,13 +38,18 @@ const DashHeader = () => {
                     <Nav to='/withdraw'>Withdraw</Nav>
                 </NavHold>
                 <NavHold>
-                    <MdAddTask/>
-                    <Nav to='/deposit'>Orders</Nav>
+                    <TbAffiliate/>
+                    <Nav to='/qrcodeset'>Two Factor Authentication</Nav>
                 </NavHold>
                 <NavHold>
-                    <TbAffiliate/>
-                    <Nav to='/qrcodeset'>Affiliate program</Nav>
+                    <RxUpdate/>
+                    <Nav to='/settings'>Update Account</Nav>
                 </NavHold>
+                <NavHold>
+                    <MdAddTask/>
+                    <Nav to='/deposit'>Confirm Orders</Nav>
+                </NavHold>
+                
             </NavWrap>
             <BurgerHold 
             // onClick={handleToggle}
