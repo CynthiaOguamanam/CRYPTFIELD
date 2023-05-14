@@ -17,27 +17,27 @@ const DashSideNav = () => {
       </Hold>
       <Hold>
         <FaLaptopCode style={{width: 30, height: 30, color: "silver"}}/>
-        <Title to='/dashboard/:userid'>Dashboard</Title>
+        <Title to='/dashboard/:userid'>Home</Title>
+      </Hold>
+      <Hold>
+        <HiOutlineCurrencyDollar style={{width: 30, height: 30, color: "silver"}}/>
+        <Title to='/walletpage'>Make Deposit</Title>
+      </Hold>
+      <Hold>
+        <AiOutlineFundProjectionScreen style={{width: 30, height: 30, color: "silver"}}/>
+        <Title to='/withdraw'>Withdraw</Title>
+      </Hold>
+      <Hold>
+        <GiShakingHands style={{width: 30, height: 30, color: "silver"}}/>
+        <Title to='/deposit'>Confirm Orders</Title>
       </Hold>
       <Hold>
         <VscAccount style={{width: 30, height: 30, color: "silver"}}/>
         <Title to='/settings'>Update Account</Title>
       </Hold>
       <Hold>
-        <HiOutlineCurrencyDollar style={{width: 30, height: 30, color: "silver"}}/>
-        <Title>Make Deposit</Title>
-      </Hold>
-      <Hold>
-        <AiOutlineFundProjectionScreen style={{width: 30, height: 30, color: "silver"}}/>
-        <Title>Withdraw</Title>
-      </Hold>
-      <Hold>
         <BsBagCheck style={{width: 30, height: 30, color: "silver"}}/>
-        <Title>Orders</Title>
-      </Hold>
-      <Hold>
-        <GiShakingHands style={{width: 30, height: 30, color: "silver"}}/>
-        <Title>Affiliate Program</Title>
+        <Title to='/qrcodeset'>Two factor authentication</Title>
       </Hold>
     </Container>
   )
