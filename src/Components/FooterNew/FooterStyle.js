@@ -6,8 +6,8 @@ height: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
-background-color: #16233C;
 align-items: center;
+background-color: #0F192C;
 /* margin-top: 30px; */
 padding: 20px 0;
 `;
