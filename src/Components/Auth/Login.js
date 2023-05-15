@@ -45,7 +45,9 @@ const Login = () => {
      setMessage({ error: true, msg: "successfully!" });
     setTimeout(() => {
       navigate(`/dashboard/${getId._id}`)
+      window.location.reload()
     }, [2000]);
+    // window.location.reload();
     }
     )
     // .then(()=>{ 

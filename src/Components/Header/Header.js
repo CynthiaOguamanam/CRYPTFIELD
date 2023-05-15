@@ -19,6 +19,7 @@ const Header = () =>{
     const deleteUser = () =>{
         localStorage.removeItem("User");
         // navigate("/")
+        window.location.reload();
     };
 
     useEffect(() =>{
