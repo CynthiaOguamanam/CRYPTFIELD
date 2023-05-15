@@ -2,7 +2,8 @@ import React from 'react';
 // import ScrollToTop from "react-scroll-to-top";
 import {
     Container, H1, Line3, Col1, 
-    Col2, Col3, Line4, P, Input, Button, H2
+    Col2, Col3,
+    //  Line4, P, Input, Button, H2
 } from './FooterStyle';
 import Footer2 from "../Footer/Footer"
 
@@ -58,12 +59,12 @@ const Footer = () => {
         {/* <ScrollToTop style={{
                     width: 150, height: 50, border: "1px solid grey", backgroundColor: "#D50000", opacity: "80%", color: "#fff"
                 }} smooth/>  */}
-        <Line4>
+        {/* <Line4>
                 <H2>Subscribe To Our Newsletter</H2>
                 <P>Subscribe to our news letter to get latest updates and news from us</P>
                 <Input type='email' placeholder='your email address'/>
                 <Button>Subscribe</Button>
-        </Line4>
+        </Line4> */}
         {/* <Social>
             <Img> <AiOutlineFacebook style={{width: "50px", height: "50px"}}/> </Img>
             <Img> <AiOutlineTwitter style={{width: "50px", height: "50px"}}/> </Img>
