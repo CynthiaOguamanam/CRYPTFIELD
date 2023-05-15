@@ -7,7 +7,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: #0F192C;
+/* background-color: #0F192C; */
+background-color: #16233C;
 /* margin-top: 30px; */
 padding: 20px 0;
 `;
