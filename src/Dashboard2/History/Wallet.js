@@ -12,7 +12,7 @@ import Swal from "sweetalert2";
 
 const History2 = () =>{
 
-    const user = JSON.parse(localStorage.getItem("User"));
+    // const user = JSON.parse(localStorage.getItem("User"));
 
 
     return(
