@@ -8,8 +8,13 @@ import doge  from './dogecoin.jpg';
 import bnb from './bnb.png'
 import ripple from './ripple.png'
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const History2 = () =>{
+
+    const user = JSON.parse(localStorage.getItem("User"));
+
+
     return(
         <Container>
             <Dash>
@@ -43,7 +48,7 @@ const History2 = () =>{
                     </Div>
                     <Div2>Charge - 0 USD + 0%</Div2>
                     <Div3>
-                        <Button to='/walletid'>Deposit</Button>
+                        <Button to='/ethereum'>Deposit</Button>
                     </Div3>
                 </Card>
                 <Card>
@@ -54,7 +59,7 @@ const History2 = () =>{
                     </Div>
                     <Div2>Charge - 0 USD + 0%</Div2>
                     <Div3>
-                        <Button to='/walletid'>Deposit</Button>
+                        <Button to='/tether'>Deposit</Button>
                     </Div3>
                 </Card>
                 <Card>
@@ -65,7 +70,7 @@ const History2 = () =>{
                     </Div>
                     <Div2>Charge - 0 USD + 0%</Div2>
                     <Div3>
-                        <Button to='/walletid'>Deposit</Button>
+                        <Button to='/dogecoin'>Deposit</Button>
                     </Div3>
                 </Card>
                 <Card>
@@ -76,7 +81,7 @@ const History2 = () =>{
                     </Div>
                     <Div2>Charge - 0 USD + 0%</Div2>
                     <Div3>
-                        <Button to='/walletid'>Deposit</Button>
+                        <Button to='/ripple'>Deposit</Button>
                     </Div3>
                 </Card>
                 <Card>
@@ -87,7 +92,7 @@ const History2 = () =>{
                     </Div>
                     <Div2>Charge - 0 USD + 0%</Div2>
                     <Div3>
-                        <Button to='/walletid'>Deposit</Button>
+                        <Button to='/bnb'>Deposit</Button>
                     </Div3>
                 </Card>
                 <Card>
@@ -98,7 +103,13 @@ const History2 = () =>{
                     </Div>
                     <Div2>Charge - 0 USD + 0%</Div2>
                     <Div3>
-                        <Button to='/walletid'>Deposit</Button>
+                        <Button onClick={() =>{
+                            Swal.fire({
+                                icon: 'info',
+                                title: "Please",
+                                text: "Chat with life support",
+                             }) 
+                        }}>Deposit</Button>
                     </Div3>
                 </Card>
             </Wrapper>

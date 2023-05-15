@@ -20,10 +20,16 @@ import Dashboard2 from './Dashboard2/Dashboard2';
 import Setting from './Dashboard2/Setting/Setting'
 import WalletPage from './Dashboard2/History/Wallet'
 import WalletId from './Dashboard2/Withdraw/WalletId'
+import BnB from './Dashboard2/Withdraw/bnbdetail'
+import Ethereum from './Dashboard2/Withdraw/Ethereumdetail'
+import Ripple from './Dashboard2/Withdraw/rippledetail'
+import Dogecoin from './Dashboard2/Withdraw/dogecoindetail'
+import Tether from './Dashboard2/Withdraw/Tetherdetail'
 import Private from "./Components/Private"
 import Qrcodeset from "./Dashboard2/Setting/Qrcodeset"
 import Withdraw from "./Dashboard2/Order/Orders2"
 import FooterNew from './Components/FooterNew/Footer'
+import BankTransfer from './Dashboard2/Withdraw/bankdetail';
 
 const App = () => {
   return (
@@ -52,6 +58,12 @@ const App = () => {
         <Route path="/withdraw" element={<Withdraw/>}/>
         <Route path="/deposit" element={<WalletId/>}/>
         <Route path="/qrcodeset" element={<Qrcodeset/>}/>
+        <Route path="/bnb" element={<BnB/>}/>
+        <Route path="/tether" element={<Tether/>}/>
+        <Route path="/ethereum" element={<Ethereum/>}/>
+        <Route path="/bank" element={<BankTransfer/>}/>
+        <Route path="/ripple" element={<Ripple/>}/>
+        <Route path="/dogecoin" element={<Dogecoin/>}/>
         </Route>
       </Routes>
       <FooterNew/> 
