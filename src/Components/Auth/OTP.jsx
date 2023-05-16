@@ -122,7 +122,7 @@ const OTP = () => {
   return (
     <Wrapper>
       <Hold>
-      <B>We sent you a code to verify your Account</B>
+      <B>We sent you a code to verify your account</B>
       <P>Enter Your code here</P>
       <InputDiv>
         <Input
