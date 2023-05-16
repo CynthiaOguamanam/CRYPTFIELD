@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import styled from 'styled-components';
-import {AiOutlineArrowDown} from 'react-icons/ai'
 import {FaMoneyBill, FaChartBar, FaCoins} from 'react-icons/fa'
 import slider1 from './slider1.jpg'
 import 'aos/dist/aos.css';
@@ -28,7 +27,7 @@ const Hero3 = () => {
                 <H4>We follow a very strict and disciplined process for investment, as we are aware, that we are dealing with our client’s funds. Investment means a lot to us, and we respect the trust of our clients.</H4>
                 <P data-aos="fade-down">You relax and our platform generates profit for you. Distributed server load keeps the bot always in service. Only 0.005 BTC one-time and you get daily profit for a lifetime. A personalized plan that brings all aspects of your financial life together A strategic mix of insurance and investments working together for your goals Your go-to financial expert who helps keep your big picture, and dreams, in focus</P>
             </Div2>
-            <Arrow/>
+            {/* <Arrow/> */}
             <Line></Line>
             <Div3>
                 <H1 data-aos="fade-down" style={{color: "#FDBA43"}}>Investment plans that suits your personality</H1>
@@ -121,16 +120,16 @@ const Div2 = styled.div`
 margin-top: 85px;
 text-align: center;
 `;
-const Arrow = styled(AiOutlineArrowDown)`
-color: #FDBA43;
-margin: 50px 0 10px 0;
-width: 40px;
-height: 40px;
+// const Arrow = styled(AiOutlineArrowDown)`
+// color: #FDBA43;
+// margin: 50px 0 10px 0;
+// width: 40px;
+// height: 40px;
 
-@media Screen and (max-width: 768px){
-    margin: 50px 0;
-}
-`;
+// @media Screen and (max-width: 768px){
+//     margin: 50px 0;
+// }
+// `;
 
 const Line = styled.div`
 margin: 50px;
