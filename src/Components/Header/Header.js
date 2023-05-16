@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { A, Container, Header1, Header2, Left, Line, Login, Logo, LogoHold, Nav, NavHold, Right, SignUp, SocialHold, SocialIcon, Wrapper , Icon, Wrapper1, BurgerHold, NavDiv} from './HeaderStyle';
-import {AiOutlinePhone,AiOutlineMenu, AiFillMail} from 'react-icons/ai'
-import {BsInstagram, BsTwitter, BsYoutube, BsFillPersonFill} from 'react-icons/bs'
+import { Container, Header2, Line, Login, Logo, LogoHold, Nav, NavHold,SignUp,Wrapper,BurgerHold, NavDiv} from './HeaderStyle';
+import {AiOutlineMenu} from 'react-icons/ai'
+import {BsFillPersonFill} from 'react-icons/bs'
 import logo from '../../Assets/mylogo.png'
 import SideNav from "./SideNav";
 import AOS from 'aos'
