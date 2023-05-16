@@ -36,7 +36,7 @@ const News = () => {
             <AiOutlineArrowRight/>
             <p style={{width: "90%"}}>Stocks, also known as equities, represent a share in ownership of a company.When you buy a stock, you're essentially buying a piece of the company.</p>
           </Two>
-          <Button>See Full List</Button>
+          <Button to='/newsdetailpage'>See Full List</Button>
         </Latest>
         {/* <NewsCard img={a2} title='KFA goal keeper beats the record of best goal keeper state championship 2022!!!'/>
         <NewsCard img={pic} title='Training get more rigorous as team has got more matches to play' /> */}
@@ -53,7 +53,7 @@ const News = () => {
             <AiOutlineArrowRight/>
             <p style={{width: "90%"}}>It's also important to understand that past performance is not a guarantee of future performance</p>
           </Two>
-          <Button to='/'>See Full List</Button>
+          <Button to='/newsdetailpage'>See Full List</Button>
         </Latest>
         </Right>
       </Wrapper>
