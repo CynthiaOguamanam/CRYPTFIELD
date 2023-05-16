@@ -4,7 +4,7 @@ import Header from './Components/Header/Header';
 import Landing from './Components/LandingPage/Landing';
 import Login from './Components/Auth/Login';
 import SignUp from './Components/Auth/SignUp';
-import VerificationPage from './Components/Auth/OTP';
+// import VerificationPage from './Components/Auth/OTP';
 // import Footer from './Components/Footer/Footer';
 import Affiliate from './Components/Affiliate/Affiliate';
 import AboutUs from './Components/AboutUs/Aboutus';
@@ -52,7 +52,7 @@ const App = () => {
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/arbitage" element={<Arbitage/>}/>
         <Route path="/newsdetailpage" element={<NewsDetailPage/>}/>
-        <Route path="/verify/:verifyid" element={<VerificationPage/>}/>
+        {/* <Route path="/verify/:verifyid" element={<VerificationPage/>}/> */}
         <Route path="/investment" element={<Investment/>}/>
         <Route path="/support" element={<Support/>}/>
         <Route path="/faqdet" element={<Faq/>}/>
