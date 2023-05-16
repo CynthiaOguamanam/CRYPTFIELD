@@ -25,7 +25,7 @@ const Footer = () => {
                 <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Market</span>
                 <a href="https://premium-cryptassets.com/stock">Stocks</a>
                 <a href="https://premium-cryptassets.com/forex">Forex</a>
-                <a href="https://premium-cryptassets.com/register">Crypto currency</a>
+                {/* <a href="https://premium-cryptassets.com/register">Crypto currency</a> */}
                 <a href="https://premium-cryptassets.com/farm">Non-farm payroll</a>
                 <a href="https://premium-cryptassets.com/multiassets">Multi Assets</a>
             </Col1>
@@ -41,15 +41,13 @@ const Footer = () => {
             </Col1>
             <Col2>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Help Center</span>
-                <a href="https://premium-cryptassets.com">Legal Docs</a>
                 <a href="https://premium-cryptassets.com/support">Help Center</a>
                 <a href="https://premium-cryptassets.com/sendrequest">Reports</a>
-                <a href="https://premium-cryptassets.com/login">Get Trading license</a>
             </Col2>
             <Col3>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Contact Information</span>
                 <a href="https://premium-cryptassets.com/support">FAQ's</a>
-                <a href="https://premium-cryptassets.com/sendrequest">support@premium-cryptassets.com</a>
+                <div>premiumcryptassets@gmail.com</div>
                 <a href="https://premium-cryptassets.com/support">info@premium-cryptassets.com</a>
                 <a href="https://premium-cryptassets.com/faqdet">Reports</a>
             </Col3>
