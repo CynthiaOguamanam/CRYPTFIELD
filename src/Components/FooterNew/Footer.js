@@ -47,7 +47,7 @@ const Footer = () => {
             <Col3>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Contact Information</span>
                 <a href="https://premium-cryptassets.com/support">FAQ's</a>
-                <div>premiumcryptassets@gmail.com</div>
+                <div>premiumcryptassets<br/>@gmail.com</div>
                 <a href="https://premium-cryptassets.com/support">info@premium-cryptassets.com</a>
                 <a href="https://premium-cryptassets.com/faqdet">Reports</a>
             </Col3>
