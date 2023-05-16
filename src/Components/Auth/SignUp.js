@@ -59,8 +59,8 @@ const SignUp = () => {
        }) 
         console.log("this is the data", getId.data._id)
           setTimeout(() => {
-            navigate(`/dashboard/${getId.data._id}`)
-            // navigate(`/verify/${getId.data._id}`)
+            // navigate(`/dashboard/${getId.data._id}`)
+            navigate(`/verify/${getId.data._id}`)
             console.log(getId._id);
           }, [2000]);
         }
