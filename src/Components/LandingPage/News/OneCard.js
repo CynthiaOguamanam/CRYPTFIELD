@@ -8,8 +8,8 @@ const OneCard = ({title, image, description}) => {
         <CardDiv>
           <Bottom>
             <H1>{title}</H1>
-            <H5> {description}</H5>
-            <Down to='/'>
+            <H5 > {description}</H5>
+            <Down to='/newsdetailpage'>
                 <AiOutlineArrowRight/>
                 <H5>View</H5> 
             </Down>
@@ -121,6 +121,7 @@ font-style: oblique;
 const H5 = styled.div`
 color: #fff;
 font-weight: 500;
+text-transform: lowercase;
 
 @media Screen and (max-width: 425px){
     font-size: 14px;

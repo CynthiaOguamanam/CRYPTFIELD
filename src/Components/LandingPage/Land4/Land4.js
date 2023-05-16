@@ -27,13 +27,13 @@ const Land4 = () => {
             <p>premium-cryptasset is backed by a team of world-class experts and the best technology talent. To stay at the forefront of innovation, we're always working on strengthening our position as Europe's leading digital asset platform.</p>
             <ButtonHold>
                 <Button>Discover More</Button>
-                <ContactHold>
+                {/* <ContactHold>
                         <CallIcon><AiFillPhone style={{width: "30px", height: "35px"}}/></CallIcon>
                         <ContDiv>
                             <P>0000000000</P>
                             <Nav>Call to Our Experts</Nav>
                         </ContDiv>
-                    </ContactHold>
+                    </ContactHold> */}
             </ButtonHold>
         </Right>
         </Wrapper>

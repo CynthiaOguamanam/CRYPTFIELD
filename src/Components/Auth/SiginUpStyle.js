@@ -24,14 +24,16 @@ color: #D0464A;
 
 export const Container = styled.div`
     width: 100%;
-    height: 200vh;
+    height: max-content;
 
 position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
 /* z-index: -1; */
-background:linear-gradient(45deg,  #030e21cf, #031128a9), url(${mainslider});
+background:
+linear-gradient(45deg,  #030e21cf, #031128a9),
+ url(${mainslider});
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -48,6 +50,7 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding: 30px 0;
 `;
 
 export const Card = styled.div`
@@ -60,8 +63,8 @@ export const Card = styled.div`
     border-radius: 10px;
     /* padding: 30px 60px 50px 60px; */
     opacity: 80%;
-    padding: 10px;
-    margin-bottom: 400px;
+    padding: 10px 20px;
+    /* margin-bottom: 100px; */
 
 
     @media Screen and (max-width: 768px){

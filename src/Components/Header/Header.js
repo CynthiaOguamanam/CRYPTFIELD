@@ -28,7 +28,7 @@ const Header = () =>{
 
     return(
         <Container>
-            <Wrapper1>
+            {/* <Wrapper1>
             <Header1>
                     <Left>
                         <A>
@@ -50,7 +50,7 @@ const Header = () =>{
                         </SocialHold>
                     </Right>
             </Header1>
-            </Wrapper1>
+            </Wrapper1> */}
             <Wrapper>
             <Header2>
                     <LogoHold>

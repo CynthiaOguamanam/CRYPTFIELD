@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import styled from 'styled-components';
 import bg from './dec.png';
+import cert from './cert.png';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -30,7 +31,7 @@ const Aboutus = () => {
             The idea of ​​creating the premium-cryptassets project originated in 2017 when the cryptocurrency market was especially volatile. High <br/> volatility made me think about arbitrage deals. These transactions were supposed to be super-fast, and as we know, transferring funds to<br/> the exchange and between them takes a lot of time. Then I remembered the strategy of "Triangular (triple) arbitrage." This strategy can be<br/> used within the framework of 1 exchange and carry out fast transactions via API. I called my school friend, who at that time was already a<br/> successful developer, and I asked him to write a small test app for one of the exchanges leading at that time. In 3 hours I had a raw version <br/>of the trading bot, which worked almost as I wanted it to.<br/>There were fails, stuttering, belated orders, but this was only a draft version. Soon we hired analysts for training the bot to work in<br/>emergency situations - PUMP / DUMP - you can earn the most from them with triple arbitrage trading. By that time, my friend (who was a<br/> developer) had already made an almost full-fledged bot, and we started making money and still do.
             <br/>
             <br/>
-            The idea originated in 2017, so why the platform was launched in 2020?
+            The idea originated in 2015, so why the platform was launched in 2018?
             <br/>
             <br/>
             The thing is that volatility has decreased since 2017, the bear market prevailed. In 2018, we had to upgrade the bot to a bear market and<br/> quick liquidation. Until mid-2018, we were still making edits and training the trading bot for our arbitrage. In early January 2019, we realized<br/> that the bot works perfectly with different movements, force majeure is excluded, so we decided to open our own company. We hired<br/> lawyers, marketing experts, and decided to adhere to the basic principles of the Internet company (anonymity and security for users). But<br/> again, the business stopped, lawyers said that we should adhere to the KYC and AML policies, which we categorically could not allow<br/> because we care about decentralization, anonymity and user safety. After all, KYC and AML did not protect a single exchange user from<br/> “exit-scam”, but only limited the possibilities of the sites and prevented the injection of money. I dare to assume there is “exit-scam” in<br/> famous exchanges, of course, not including force majeure circumstances like hacker atacks. We began to prepare documents, consult, and<br/> in October 2019, we officially registered our company under Hong Kong jurisdiction. A few months took to develop the platform and <br/>connect our trading bots, and now ... the platform was launched in the middle of April 2020.
@@ -48,6 +49,10 @@ const Aboutus = () => {
             My name is Hardy, and I am the CEO of premium-cryptaseets.com
             </Right>
            </Down>
+           <CertHold>
+            <H11>PREMIUM-CRYPTASSETS RC: 11570008</H11>
+            <Cert src={cert} alt="certificate"/>
+           </CertHold>
            <Bottom>
             <H1 data-aos="fade-down">
             What does our platform offer?
@@ -142,6 +147,24 @@ display: flex;
 justify-content: space-between;
 margin: 30px 0;
 `;
+
+const CertHold = styled.div`
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+`;
+const Cert = styled.img`
+width :60%;
+
+`;
+
+const H11 = styled.div`
+color: whitesmoke;
+font-weight :bold;
+font-size: 25px;
+`;
+
 const Line = styled.div`
 width: 2px;
 height : 95vh;

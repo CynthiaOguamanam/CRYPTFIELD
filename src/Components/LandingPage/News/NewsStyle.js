@@ -80,7 +80,7 @@ margin-bottom: 15px;
 export const Two = styled.div`
 display: flex;
 justify-content: space-between;
-align-items: center;
+align-items: baseline;
 margin-left: 15px;
 width: 90%;
 color: red;

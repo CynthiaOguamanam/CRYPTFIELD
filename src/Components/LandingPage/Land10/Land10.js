@@ -123,7 +123,7 @@ text-align: center;
 `;
 const Arrow = styled(AiOutlineArrowDown)`
 color: #FDBA43;
-margin: 100px 0;
+margin: 50px 0 10px 0;
 width: 40px;
 height: 40px;
 

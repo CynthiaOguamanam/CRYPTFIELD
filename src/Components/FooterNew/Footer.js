@@ -23,11 +23,11 @@ const Footer = () => {
         <Line3>
             <Col1>
                 <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Market</span>
-                <a href="https://premium-cryptassets.com/register">Stocks</a>
-                <a href="https://premium-cryptassets.com/register">Forex</a>
+                <a href="https://premium-cryptassets.com/stock">Stocks</a>
+                <a href="https://premium-cryptassets.com/forex">Forex</a>
                 <a href="https://premium-cryptassets.com/register">Crypto currency</a>
-                <a href="https://premium-cryptassets.com/register">Non-farm payroll</a>
-                <a href="https://premium-cryptassets.com/register">Multi Assets</a>
+                <a href="https://premium-cryptassets.com/farm">Non-farm payroll</a>
+                <a href="https://premium-cryptassets.com/multiassets">Multi Assets</a>
             </Col1>
             <Col1>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Useful Links</span>

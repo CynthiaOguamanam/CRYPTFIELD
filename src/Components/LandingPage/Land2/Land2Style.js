@@ -65,7 +65,7 @@ transition: all 400ms;
 `;
 export const Card = styled.div`
 width: 30%;
-height: 80%;
+height: 83%;
 background-color: #0B1526;
 border-radius: 0.2rem;
 box-shadow:   rgb(0 0 0 / 50%) 0px 1px 10px 0px, rgb(27 31 35 / 25%) 0px 0px 0px 1px;
@@ -120,7 +120,7 @@ width: 150px;
 height: 130px;
 background-image: linear-gradient(to right, #FFCC40,  #F14456);
 /* background-image: linear-gradient(to right, #187FBA, skyblue); */
-margin-bottom: 20px;
+margin-bottom: 30px;
 color: white;
 `;
 export const H3 = styled.div`

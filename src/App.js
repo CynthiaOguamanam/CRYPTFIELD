@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './Components/Header/Header'
+import Header from './Components/Header/Header';
 import Landing from './Components/LandingPage/Landing';
 import Login from './Components/Auth/Login';
 import SignUp from './Components/Auth/SignUp';
-// import VerificationPage from './Components/Auth/VerificationPage';
+import VerificationPage from './Components/Auth/OTP';
 // import Footer from './Components/Footer/Footer';
 import Affiliate from './Components/Affiliate/Affiliate';
 import AboutUs from './Components/AboutUs/Aboutus';
@@ -29,6 +29,11 @@ import Private from "./Components/Private"
 import Qrcodeset from "./Dashboard2/Setting/Qrcodeset"
 import Withdraw from "./Dashboard2/Order/Orders2"
 import FooterNew from './Components/FooterNew/Footer'
+import Stock from './Components/FooterNew/Stock'
+import Forex from './Components/FooterNew/Forex'
+import Farm from './Components/FooterNew/Farm'
+import Multiassets from './Components/FooterNew/Multiassets'
+// import Crypto from './Components/FooterNew/Stock'
 import BankTransfer from './Dashboard2/Withdraw/bankdetail';
 
 const App = () => {
@@ -40,15 +45,20 @@ const App = () => {
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<SignUp/>}/>
         <Route path="/affiliate" element={<Affiliate/>}/>
+        <Route path="/stock" element={<Stock/>}/>
+        <Route path="/forex" element={<Forex/>}/>
+        <Route path="/farm" element={<Farm/>}/>
+        <Route path="/multiassets" element={<Multiassets/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/arbitage" element={<Arbitage/>}/>
         <Route path="/newsdetailpage" element={<NewsDetailPage/>}/>
-        {/* <Route path="/verify" element={<VerificationPage/>}/> */}
+        <Route path="/verify/:verifyid" element={<VerificationPage/>}/>
         <Route path="/investment" element={<Investment/>}/>
         <Route path="/support" element={<Support/>}/>
         <Route path="/faqdet" element={<Faq/>}/>
         <Route path="/sendrequest" element={<Sendreq/>}/>
         <Route path="/Howreg" element={<Howreg/>}/>
+        <Route path="/newsdetail" element={<NewsDetailPage/>}/>
         <Route element={<Private />}>
         <Route path="/dashboard/:userid" element={<Dashboard2/>}/>
         <Route path="/walletpage" element={<WalletPage/>}/>

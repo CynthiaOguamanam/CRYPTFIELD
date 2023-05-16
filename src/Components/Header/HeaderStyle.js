@@ -9,6 +9,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+z-index: 1000;
+/* display: none; */
 @media Screen and (max-width: 768px){
     height: 120px;
     width: 100%;
@@ -52,7 +54,6 @@ align-items: center;
 bottom: 100px;
 top: 0;
 left: 0;
-z-index: 999999;
 
 
 @media Screen and (max-width: 768px){
