@@ -23,34 +23,34 @@ const Footer = () => {
         <Line3>
             <Col1>
                 <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Market</span>
-                <a href="https://premium-cryptassets.com/stock">Stocks</a>
-                <a href="https://premium-cryptassets.com/forex">Forex</a>
+                <a href="https://premium-crypt.onrender.com/stock">Stocks</a>
+                <a href="https://premium-crypt.onrender.com/forex">Forex</a>
                 {/* <a href="https://premium-cryptassets.com/register">Crypto currency</a> */}
-                <a href="https://premium-cryptassets.com/farm">Non-farm payroll</a>
-                <a href="https://premium-cryptassets.com/multiassets">Multi Assets</a>
+                <a href="https://premium-crypt.onrender.com/farm">Non-farm payroll</a>
+                <a href="https://premium-crypt.onrender.com/multiassets">Multi Assets</a>
             </Col1>
             <Col1>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Useful Links</span>
-                <a href="https://premium-cryptassets.com">Home</a> 
-                <a href="https://premium-cryptassets.com/aboutus">About Us</a>
-                <a href="https://premium-cryptassets.com/argitage">Arbitage</a>
-                <a href="https://premium-cryptassets.com/affiliate">Affiliate Program</a>
-                <a href="https://premium-cryptassets.com/faqdet">Privacy Policy</a>
-                <a href="https://premium-cryptassets.com/login">Register</a>
-                <a href="https://premium-cryptassets.com/register">Login</a>
+                <a href="https://premium-crypt.onrender.com/">Home</a> 
+                <a href="https://premium-crypt.onrender.com/aboutus">About Us</a>
+                <a href="https://premium-crypt.onrender.com/argitage">Arbitage</a>
+                <a href="https://premium-crypt.onrender.com/affiliate">Affiliate Program</a>
+                <a href="https://premium-crypt.onrender.com/faqdet">Privacy Policy</a>
+                <a href="https://premium-crypt.onrender.com/login">Register</a>
+                <a href="https://premium-crypt.onrender.com/register">Login</a>
             </Col1>
             <Col2>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Help Center</span>
-                <a href="https://premium-cryptassets.com/support">Help Center</a>
-                <a href="https://premium-cryptassets.com/sendrequest">Reports</a>
+                <a href="https://premium-crypt.onrender.com/support">Help Center</a>
+                <a href="https://premium-crypt.onrender.com/sendrequest">Reports</a>
             </Col2>
             <Col3>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Contact Information</span>
-                <a href="https://premium-cryptassets.com/support">FAQ's</a>
+                <a href="https://premium-crypt.onrender.com/support">FAQ's</a>
                 <div>premiumcryptassets<br/>@gmail.com</div>
                 <br/>
-                <a href="https://premium-cryptassets.com/support">info@premium-cryptassets.com</a>
-                <a href="https://premium-cryptassets.com/faqdet">Reports</a>
+                <a href="https://premium-crypt.onrender.com/support">info@premium-cryptassets.com</a>
+                <a href="https://premium-crypt.onrender.com/faqdet">Reports</a>
             </Col3>
         </Line3>
         <Footer2/>
