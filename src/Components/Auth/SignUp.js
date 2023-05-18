@@ -37,7 +37,7 @@ const SignUp = () => {
     console.log(message);
 
     const Data = {fullName, userName, email, retypeEmail, password, confirmPassword, phoneNumber}
-    const url = "https://calm-erin-coral-wrap.cyclic.app/api/register"
+    const url = "https://premium-crypt.onrender.com/api/register"
 
     // console.log(url)
 

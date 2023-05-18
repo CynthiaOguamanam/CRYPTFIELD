@@ -26,7 +26,7 @@ const Login = () => {
 
     console.log(message);
     
-    const url = "https://calm-erin-coral-wrap.cyclic.app/api/login"
+    const url = "https://premium-crypt.onrender.com/api/login"
   const Data = {userName, password}
   console.log(url)
   console.log(Data)

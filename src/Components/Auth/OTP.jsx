@@ -56,7 +56,7 @@ const OTP = () => {
 
 
   const navigate = useNavigate();
-  const url = `https://calm-erin-coral-wrap.cyclic.app/api/verifyotp/${id}`
+  const url = `https://premium-crypt.onrender.com/api/verifyotp/${id}`
 
     // console.log(url)
 

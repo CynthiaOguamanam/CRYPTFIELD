@@ -43,7 +43,7 @@ const [data, setData] = useState()
             <InputHold>
             <Left1>
                 <Title>Referral Links</Title>
-              <Linkput>https://premium-cryptassets/123ref_io
+              <Linkput>https://premium-crypt.onrender.com//123ref_io
               <AiFillCopy style={{width: 45, height: 45, color: "#FF4D4D"}}/>
                </Linkput>
             </Left1>
