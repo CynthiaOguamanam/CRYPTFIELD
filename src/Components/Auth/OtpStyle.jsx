@@ -42,18 +42,19 @@ export const Wrapper = styled.div`
 `
 export const Input = styled.input.attrs((props)=>({
     type: 'alphanumeric',
-    maxLength: props.maxLength, 
-    minLength: props.minLength,
+    maxLength: 6, 
+    minLength: 1,
 }))
 `
-   width :40px ;
+   width :130px;
    height: 40px;
-   border-radius: 100%;
-   border: 1px solid grey;
+   border: none;
+   // border-radius: 100%;
+   border-bottom: 1px solid grey;
    outline: none;
    text-align: center;
-   background-color: #ffffff;
-   color: black;
+   background: transparent;
+   color: #ffffff;
    font-size: 25px;
    @media screen and (max-width: 426px){
     width: 30px;
