@@ -71,7 +71,7 @@ display: none;
     display: block;
     background-color: #16243dc2;
     width: 75px;
-    height: 50px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

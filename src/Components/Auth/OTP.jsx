@@ -24,8 +24,9 @@ const OTP = () => {
   const {verifyid} = useParams()
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState({ error: false, msg:""});
+  console.log(message)
   const [otpinput, setOtpinput] = useState("");
-  // const [otpinput2, setOtpinput2] = useState("");
+  const [errorotp, setErrorotp] = useState(false);
   // const [otpinput3, setOtpinput3] = useState("");
   // const [otpinput4, setOtpinput4] = useState("");
   // const [otpinput5, setOtpinput5] = useState("");
@@ -73,37 +74,68 @@ const OTP = () => {
         e.preventDefault()
         setLoading(true)
         // console.log(Data); 
-
         Axios.post(url, {otp: otp1})
         .then((res) => {
         localStorage.setItem("User", JSON.stringify(res.data));
-        setMessage({ error: true, msg: res.data.message});
-
+        setMessage({ error: true, msg: res.data.data.message});
+        // console.log(res.data.message)
         const getId = JSON.parse(localStorage.getItem("User"))
-        Swal.fire({
-          icon: 'success',
-          title: 'Success',
-          text: message,
-       }) 
-        console.log("this is the data", getId.data._id)
+          Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: "Registration Successful",
+          })
+        //  console.log("this is the data", getId.data._id)
           setTimeout(() => {
             navigate(`/dashboard/${getId.data._id}`)
-            console.log(getId._id);
+            // console.log(getId._id);
+          window.location.reload()
           }, [2000]);
-        }
-        )
-        .catch((error)=>{
-          console.log(error)
-          setMessage({error: false, msg: "Wrong otp" });
-          Swal.fire({
-            icon: 'error',
-            title: 'Error',
-            text: message,
-         }) 
-      })
+        })
+        .catch((err)=>{
+        // setMessage({ error: true, msg: "err.data.data.message"});
+        // console.log(err.data.data.message)
+          setLoading(false)
+          setErrorotp(true)
+        })
 
-    };
-
+  //     Axios.post(url, { otp: otp1 })
+  // .then((res) => {
+  //   localStorage.setItem("User", JSON.stringify(res.data));
+  //   let message = res.data.data.message;
+  //   console.log(res);
+  //   const getId = JSON.parse(localStorage.getItem("User"));
+  //   if (res.status === 201) {
+  //     Swal.fire({
+  //       icon: 'success',
+  //       title: 'Success',
+  //       text: message,
+  //     });
+  //     console.log("this is the data", getId.data._id);
+  //     setTimeout(() => {
+  //       navigate(`/dashboard/${getId.data._id}`);
+  //       console.log(getId.data._id);
+  //     }, 2000);
+  //   } else if (res.status === 404) {
+  //     Swal.fire({
+  //       icon: 'success',
+  //       title: 'Success',
+  //       text: message,
+  //     });
+  //   }
+  // })
+  // .catch((error) => {
+  //   // setMessage({ error: false, msg: "Wrong Verification Code" });
+  //   Swal.fire({
+  //     icon: 'error',
+  //     title: 'Error',
+  //     text: "error otp",
+  //   });
+  //   setLoading(false);
+  //   console.log(error.response.data.message);
+  // });
+    
+};
 
 
 
@@ -127,7 +159,6 @@ const OTP = () => {
   //     previousInputRef && previousInputRef.current.focus();
   //   }
   // };
-
   return (
     <Wrapper>
       <Hold>
@@ -147,6 +178,7 @@ const OTP = () => {
         />
       </InputDiv>
       <Button onClick={(e)=> Verified(e)}> {loading ? <SpinnerCircular size={25} thickness={100} speed={100} color="rgba(255, 255, 255, 1)" secondaryColor="rgba(0, 0, 0, 0.44)" /> : "Verify"}</Button>
+     <div style={{color: "red"}}>{errorotp? "Wrong verification code" : null}</div>
       <P>I didn't receieve any code</P>
       <R>Resend code</R>
       </Hold>

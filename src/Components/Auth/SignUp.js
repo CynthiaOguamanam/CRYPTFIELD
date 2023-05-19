@@ -66,9 +66,15 @@ const SignUp = () => {
         }
         )
         .catch((error)=>{
-          console.log(error)
-          setMessage({error: false, msg: "user not found" });
-      })
+          console.log(error);
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops!!!',
+            text: error.response.data.message,
+            });
+          setLoading(false);
+          setMessage({error: false, msg: error.data.message });
+      });
 
     };
 

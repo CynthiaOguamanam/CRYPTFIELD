@@ -59,7 +59,7 @@ const Header = () =>{
                     
                     {UserData? <Nav onClick={() =>{
                             deleteUser();
-                        }}  to='/' style={{color: "#FF4D4D", fontWeight: "bold", fontSize: "20px", display: "flex", alignItems: "center"}}> <BsFillPersonFill/> Sign Out</Nav>  : <>
+                        }}  to='/' style={{color: "#fff", fontWeight: "bold", fontSize: "20px", display: "flex", alignItems: "center"}}> <BsFillPersonFill/> Sign Out</Nav>  : <>
                         <NavHold>
                         <Nav to='/'>Home</Nav>
                         <Nav to='/aboutus'>About Us</Nav>
@@ -76,7 +76,7 @@ const Header = () =>{
             <BurgerHold onClick={() =>{
           setNav(!nav)
         }}> 
-          <AiOutlineMenu style={{color: "#0CE0FF", width: 20, height: 20}}/>
+          <AiOutlineMenu style={{color: "#0CE0FF", width: 15, height: 15}}/>
         </BurgerHold>
        </Wrapper>
             {UserData ? <>{nav?(<DashHeader/>):""}</> :   <>
