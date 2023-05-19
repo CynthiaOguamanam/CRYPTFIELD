@@ -98,8 +98,8 @@ transition: all 300ms;
   transition: opacity ease 300ms;
 }
 @media Screen and (max-width: 1280px){
-  width: 12.5%;
-  margin-left: 255px;
+  width: 11%;
+  /* margin-left: 255px; */
 
   :hover{
     width: 35%;

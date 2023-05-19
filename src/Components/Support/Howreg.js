@@ -15,7 +15,7 @@ const Howreg = () => {
             <H1 data-aos="fade-down">How to register an account</H1>
             <Wrap>
                 <Hold data-aos="fade-down">
-                    <List>1.<br/>You are on the home page of cryptfield Click on the "Register" button at the top right of<br/> the page.</List>
+                    <List>1.<br/>You are on the home page of premium-cryptassets Click on the "Register" button at the top right of<br/> the page.</List>
                     <List>2.<br/>You are on the Registration page, you need to enter an email address and come up with a complex<br/> password. The password must include a combination of upper and lower case letters, numbers and<br/> special characters.</List>
                     <List>3.<br/>If you did everything correctly, you will be sent an email to confirm the registration. You will see<br/> the corresponding information window.</List>
                     <List>4.<br/>You need to go into your email and find the letter. If you don’t see it in your Inbox, try checking<br/> the Spam folder. There will be a link/button in the letter - you need to click on it to confirm the<br/> registration.</List>

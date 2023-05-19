@@ -36,8 +36,8 @@ const Footer = () => {
                 <a href="https://premium-cryptassets.netlify.app/arbitage">Arbitage</a>
                 <a href="https://premium-cryptassets.netlify.app/affiliate">Affiliate Program</a>
                 <a href="https://premium-cryptassets.netlify.app/faqdet">Privacy Policy</a>
-                <a href="https://premium-cryptassets.netlify.app/login">Register</a>
-                <a href="https://premium-cryptassets.netlify.app/register">Login</a>
+                <a href="https://premium-cryptassets.netlify.app/register">Register</a>
+                <a href="https://premium-cryptassets.netlify.app/login">Login</a>
             </Col1>
             <Col2>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Help Center</span>

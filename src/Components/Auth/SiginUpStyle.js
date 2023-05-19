@@ -30,7 +30,7 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-/* z-index: -1; */
+ z-index: -1;
 background:
 linear-gradient(45deg,  #030e21cf, #031128a9),
  url(${mainslider});

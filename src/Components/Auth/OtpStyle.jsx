@@ -57,15 +57,14 @@ export const Input = styled.input.attrs((props)=>({
    color: #ffffff;
    font-size: 25px;
    @media screen and (max-width: 426px){
-    width: 30px;
+    width: 60%;
     height: 30px;
-    border-radius: 100%;
     font-size: 20px;
     font-weight: 100;
    }
    @media screen and (max-width: 320px){
-    width: 25px;
-    height: 25px;
+    width: 80%;
+    height: 80%;
    }
 `
 export const P = styled.p`
@@ -75,6 +74,8 @@ font-size: 18px;
 export const InputDiv = styled.div`
    display: flex;
    gap: 20px;
+   justify-content: center;
+   align-items: center;
 
 `
 export const Button = styled.div`
