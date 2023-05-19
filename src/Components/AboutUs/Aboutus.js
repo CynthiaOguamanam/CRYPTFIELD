@@ -46,11 +46,11 @@ const Aboutus = () => {
             Sorry, forgot to introduce myself
             <br/>
             <br/>
-            My name is Hardy, and I am the CEO of premium-cryptaseets.com
+            My name is Hardy, and I am the CEO of premium-cryptaseets.org
             </Right>
            </Down>
            <CertHold>
-            <H11>PREMIUM-CRYPTASSETS RC: 11570008</H11>
+            <H11>PREMIUM-CRYPTASSETS.ORG RC: 11570008</H11>
             <Cert src={cert} alt="certificate"/>
            </CertHold>
            <Bottom>
@@ -60,7 +60,7 @@ const Aboutus = () => {
             <br/>
             <br/>
             <Content data-aos="fade-down">
-            premium-cryptaseets.com is a unique platform for arbitrage trading in cryptocurrency assets. Its functionality allows to carry out profitable<br/> transactions in a few clicks, no need to be a professional, or have experience in trading and understand the specifics of this activity. Our system<br/> allows engaging in arbitrage transactions in the simplest possible manner without registering on dozens of exchanges and using large<br/> amounts of money. By creating an account in our platform, you will get access to operations on popular trading platforms and will get guaranteed profits. The security level of the arbitrage trading platform is the highest. Funds storage in cold and hot wallets ensures the complete safety of our clients' funds, and modern data protection methods ensure reliable storage of information about user accounts.
+            premium-cryptassets.org is a unique platform for arbitrage trading in cryptocurrency assets. Its functionality allows to carry out profitable<br/> transactions in a few clicks, no need to be a professional, or have experience in trading and understand the specifics of this activity. Our system<br/> allows engaging in arbitrage transactions in the simplest possible manner without registering on dozens of exchanges and using large<br/> amounts of money. By creating an account in our platform, you will get access to operations on popular trading platforms and will get guaranteed profits. The security level of the arbitrage trading platform is the highest. Funds storage in cold and hot wallets ensures the complete safety of our clients' funds, and modern data protection methods ensure reliable storage of information about user accounts.
             </Content>
             <ButtonHold>
                 <Auto>Automated Trading</Auto>

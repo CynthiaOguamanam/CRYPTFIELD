@@ -21,7 +21,7 @@ const AssetCryp = () => {
                 <Div>
                     <IconHold data-aos="flip-down"><AiOutlinePercentage style={{width: 35, height: 35}}/></IconHold>
                     <H4>INSTITUTIONAL INVESTMENT</H4>
-                    <span>When you select premium-cryptassets.com to manage institutional assets, you will generate a better ROI</span>
+                    <span>When you select premium-cryptassets.org to manage institutional assets, you will generate a better ROI</span>
                 </Div>
                 <Line></Line>
                 <Div>

@@ -26,11 +26,11 @@ export const Container = styled.div`
     width: 100%;
     height: max-content;
 
-position: relative;
+/* position: relative; */
 display: flex;
 justify-content: center;
 align-items: center;
- z-index: -1;
+ /* z-index: -1; */
 background:
 linear-gradient(45deg,  #030e21cf, #031128a9),
  url(${mainslider});
@@ -58,7 +58,7 @@ export const Card = styled.div`
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
     width: 500px;
     max-width: 100%;
-    position: relative;
+    /* position: relative; */
     margin: 0 auto;
     border-radius: 10px;
     /* padding: 30px 60px 50px 60px; */

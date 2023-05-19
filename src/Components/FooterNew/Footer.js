@@ -19,7 +19,7 @@ const Footer = () => {
 
   return (
     <Container>
-        <H1>premium-cryptassets.com</H1>
+        <H1>premium-cryptassets.org</H1>
         <Line3>
             <Col1>
                 <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#E5AC44"}}>Market</span>
@@ -49,7 +49,7 @@ const Footer = () => {
                 <a href="https://premium-cryptassets.netlify.app/support">FAQ's</a>
                 <div>premiumcryptassets<br/>@gmail.com</div>
                 <br/>
-                <a href="https://premium-cryptassets.netlify.app/support">info@premium-cryptassets.com</a>
+                <a href="https://premium-cryptassets.netlify.app/support">premium-cryptassets.org</a>
                 <a href="https://premium-cryptassets.netlify.app/faqdet">Reports</a>
             </Col3>
         </Line3>

@@ -54,6 +54,7 @@ align-items: center;
 bottom: 100px;
 top: 0;
 left: 0;
+z-index: 500;
 
 
 @media Screen and (max-width: 768px){
@@ -65,7 +66,6 @@ left: 0;
 export const BurgerHold = styled.button`
 width : 45px;
 height: 45px;
-
 display: none;
 @media Screen and (max-width: 768px){
     display: block;
