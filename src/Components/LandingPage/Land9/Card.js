@@ -61,6 +61,12 @@ transition: all 2s;
 padding : 0 20px;
 height: auto;
 };
+@media Screen and (max-width: 768px){
+/* padding : 0 20px; */
+/* height: auto; */
+width: 90%;
+margin: 10px 0;
+};
 @media Screen and (max-width: 500px){
 width: 90%;
 margin: 20px 0;
@@ -98,7 +104,7 @@ transition: all 300ms;
   transition: opacity ease 300ms;
 }
 @media Screen and (max-width: 1280px){
-  width: 11%;
+  width: 12.5%;
   /* margin-left: 255px; */
 
   :hover{
@@ -114,16 +120,28 @@ transition: all 300ms;
   }
 }
 @media Screen and (max-width: 768px){
-  width: 35%;
-  margin-left: 215px;
+  width: 25%;
+  margin-left: 465px;
 
   :hover{
-    margin-left: 230px
+    margin-left: 428px;
   }
 }
 
 @media Screen and (max-width: 500px){
-  margin-left: 212px;
+  margin-left: 275px;
+  :hover{
+    margin-left: 250px
+  }
+};
+@media Screen and (max-width: 375px){
+  margin-left: 250px;
+  :hover{
+    margin-left: 220px;
+  }
+};
+@media Screen and (max-width: 320px){
+  margin-left: 218px;
   :hover{
     margin-left: 220px
   }
