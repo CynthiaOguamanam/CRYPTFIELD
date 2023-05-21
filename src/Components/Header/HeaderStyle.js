@@ -65,17 +65,17 @@ z-index: 500;
 `;
 export const BurgerHold = styled.button`
 width : 45px;
-height: 45px;
+/* height: 45px; */
 display: none;
 @media Screen and (max-width: 768px){
     display: block;
     background-color: #16243dc2;
-    width: 75px;
+    width: 35px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
     border: none;
     outline:none;
     transition: 0.5s;

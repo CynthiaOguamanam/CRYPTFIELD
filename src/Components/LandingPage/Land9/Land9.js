@@ -17,7 +17,7 @@ const Land7 = () => {
         <Wrapper>
         <Trade>
         <Img src={arr} alt='arr left'/>
-        <h4>TESTIMONIALS</h4>
+        <h4>TESTIMONIES</h4>
         <Img src={arr2} alt='arr right'/>
       </Trade>
         <H1>What our customers are <br/>
