@@ -6,7 +6,7 @@ const Private = () => {
   
   const user =  JSON.parse(localStorage.getItem('User'))
 
-  console.log(user)
+  // console.log(user)
   return (
   <>
     {!user ? <Navigate to="/login" /> : <Outlet />}

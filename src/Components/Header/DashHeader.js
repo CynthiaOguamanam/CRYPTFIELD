@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import styled from 'styled-components';
 import {AiFillHome} from 'react-icons/ai'
 import {RxUpdate} from 'react-icons/rx'
@@ -8,14 +8,27 @@ import {TbAffiliate} from 'react-icons/tb'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import {Link} from 'react-router-dom'
+import axios from "axios"
 
 
 const DashHeader = () => {
 
+    // const {userid} = useParams()
+    const [data, setData] = useState()
+    console.log(data);
     useEffect(() =>{
         AOS.init({duration:1000})
-      },[])
+      },[]);
 
+    const UserData = JSON.parse(localStorage.getItem("info"));
+    console.log(UserData._id);
+
+    const url = `https://premium-crypt.onrender.com/api/userdata/${UserData._id}`
+  useEffect(() =>{
+    axios.get(url).then(res => setData(res.data.data))
+    /* eslint-disable-next-line react-hooks/exhaustive-deps */
+  }, [])
+//   console.log(userid);
 
     
   return (
@@ -49,10 +62,13 @@ const DashHeader = () => {
                     <MdAddTask/>
                     <Nav to='/deposit'>Confirm Orders</Nav>
                 </NavHold>
+                {UserData.isAdmin? 
                 <NavHold>
                     <MdAddTask/>
                     <Nav to='/updateuser'>Update User</Nav>
-                </NavHold>
+                </NavHold> 
+                : "no"}
+                
             </NavWrap>
             <BurgerHold 
             // onClick={handleToggle}

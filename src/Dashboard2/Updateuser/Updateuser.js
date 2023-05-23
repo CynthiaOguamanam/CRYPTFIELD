@@ -61,6 +61,7 @@ const UpdateUser = ({Display}) => {
            console.log("this is the id", id) 
           console.log(totalDeposit) 
         }
+        // window.location.reload();
       }
 
   return (
@@ -84,47 +85,47 @@ const UpdateUser = ({Display}) => {
             <p> {props.email}</p>
           </TextDiv>
          
-          <InputData>
+          {/* <InputData>
             <label>last deposit: </label>
-            {/* <input type="text" value={last} onChange ={(e)=>{setLast(e.target.value)}}/> */}
+            <input type="text" value={last} onChange ={(e)=>{setLast(e.target.value)}}/>
               <button onClick={(e)=>upddatebtn(props._id,e)} title={"lastDeposit"}>update</button> 
               <span>${props.lastDeposit}</span>
-          </InputData>
+          </InputData> */}
 
           <InputData>
             <label>Last Deposit: </label>
            {/*  <input/> */}
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalDeposit"}>update</button>
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"lastDeposit"}>update</button>
             <span>${props.lastDeposit}</span>
           </InputData>
 
           <InputData>
             <label>Last Withdrawal: </label>
            {/*  <input/> */}
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalDeposit"}>update</button>
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"lastWithdrawal"}>update</button>
             <span>${props.lastWithdrawal}</span>
           </InputData>
 
           <InputData>
             <label>Deposit Wallet Balance: </label>
            {/*  <input/> */}
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalDeposit"}>update</button>
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"depositWalletbalance"}>update</button>
             <span>${props.depositWalletbalance}</span>
           </InputData>
 
           <InputData>
             <label>Interest Wallet Balance: </label>
            {/*  <input/> */}
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalDeposit"}>update</button>
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"interestWalletbalance"}>update</button>
             <span>${props.interestWalletbalance}</span>
           </InputData>
 
-          <InputData>
+          {/* <InputData>
             <label>Current Balance: </label>
-           {/*  <input/> */}
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalDeposit"}>update</button>
+            <input/>
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"currentBalance"}>update</button>
             <span>${props.currentBalance}</span>
-          </InputData>
+          </InputData> */}
 
           <InputData>
             <label>Total Deposit: </label>
@@ -136,37 +137,37 @@ const UpdateUser = ({Display}) => {
           <InputData>
             <label>Total Invest: </label>
            {/*  <input/> */}
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalDeposit"}>update</button>
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalInvest"}>update</button>
             <span>${props.totalInvest}</span>
           </InputData>
 
           <InputData>
             <label>Total Withdraw: </label>
            {/*  <input/> */}
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalDeposit"}>update</button>
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalWithdraw"}>update</button>
             <span>${props.totalWithdraw}</span>
           </InputData>
 
           <InputData>
-            <label>Account balance: </label>
+            <label>Current balance: </label>
             {/* <input/> */}
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"accountBalance"}>Update</button>
-            <span>${props.accountBalance}</span>
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"currentBalance"}>Update</button>
+            <span>${props.currentBalance}</span>
           </InputData>
 
-          <InputData>
+          {/* <InputData>
             <label>Start up deposit: </label>
-            {/* <input /> */}
+            <input />
             <button onClick={(e)=>upddatebtn(props._id,e)} title={"startUpDeposit"}>Update</button>
             <span>${props.startUpDeposit}</span>
-          </InputData>
+          </InputData> */}
 
-          <InputData>
+          {/* <InputData>
               <label>Total earned: </label>
-              {/* <input /> */}
+              <input />
               <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalEarned"}>Update</button>
               <span>${props.totalEarned}</span>
-          </InputData>
+          </InputData> */}
 
           </Wrapper>
           ))

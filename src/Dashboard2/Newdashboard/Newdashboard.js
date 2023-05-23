@@ -22,8 +22,10 @@ const [data, setData] = useState()
     axios.get(url).then(res => setData(res.data.data))
     /* eslint-disable-next-line react-hooks/exhaustive-deps */
   }, [])
+  localStorage.setItem("info", JSON.stringify(data))
 
-  console.log("This is the data",data)
+  
+  // console.log("This is the data",data)
 
   return (
     <Container>
