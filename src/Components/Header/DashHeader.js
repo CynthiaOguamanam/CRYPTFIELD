@@ -49,7 +49,10 @@ const DashHeader = () => {
                     <MdAddTask/>
                     <Nav to='/deposit'>Confirm Orders</Nav>
                 </NavHold>
-                
+                <NavHold>
+                    <MdAddTask/>
+                    <Nav to='/updateuser'>Update User</Nav>
+                </NavHold>
             </NavWrap>
             <BurgerHold 
             // onClick={handleToggle}

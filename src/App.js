@@ -28,6 +28,7 @@ import Tether from './Dashboard2/Withdraw/Tetherdetail'
 import Private from "./Components/Private"
 import Qrcodeset from "./Dashboard2/Setting/Qrcodeset"
 import Withdraw from "./Dashboard2/Order/Orders2"
+import Updateuser from "./Dashboard2/Updateuser/Updateuser"
 import FooterNew from './Components/FooterNew/Footer'
 import Stock from './Components/FooterNew/Stock'
 import Forex from './Components/FooterNew/Forex'
@@ -74,6 +75,7 @@ const App = () => {
         <Route path="/bank" element={<BankTransfer/>}/>
         <Route path="/ripple" element={<Ripple/>}/>
         <Route path="/dogecoin" element={<Dogecoin/>}/>
+        <Route path="/updateuser" element={<Updateuser/>}/>
         </Route>
       </Routes>
       <FooterNew/> 

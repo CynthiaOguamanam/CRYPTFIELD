@@ -7,7 +7,8 @@ import { BsBagCheck } from 'react-icons/bs'
 import {HiOutlineCurrencyDollar} from 'react-icons/hi'
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import { VscAccount } from 'react-icons/vsc'
-import NewDashboard from './Newdashboard/Newdashboard'
+import NewDashboard from './Newdashboard/Newdashboard';
+import {Link} from 'react-router-dom'
 // import Settings from './Setting/Setting'
 // import History from './History/Wallet'
 // import Withdraw from './Withdraw/Withdraw'
@@ -45,6 +46,10 @@ const Dashboard2 = () => {
       <Hold>
         <GiShakingHands style={{width: 30, height: 30, color: "silver"}}/>
         <Title>Affiliate Program</Title>
+      </Hold>
+      <Hold to='/updateuser'>
+        <GiShakingHands style={{width: 30, height: 30, color: "silver"}}/>
+        <Title>Update User</Title>
       </Hold>
         </SideNav>
         <NewDashboard/>
@@ -96,7 +101,7 @@ border-top: 1px solid #4A525E;
   display: none;
 }
 `;
-const Hold = styled.button`
+const Hold = styled(Link)`
 width: 100%;
 padding: 20px 0 20px 30px;
 display: flex;
