@@ -14,30 +14,30 @@ const Modal = ({setModal}) =>{
             </Hold>
                 <H1>Open manual order</H1>
                 <One>
-                    <Left>
+                    {/* <Left>
                         <div>Balance</div>
                         <Balance>$0</Balance>
-                    </Left>
+                    </Left> */}
                     <Bal>Replenish Balance</Bal>
                 </One>
-                <Two>
+                {/* <Two>
                     <InputHold>
                         <Name>Select Payment method</Name>
                         <Select >
                             <Options  value="Deposit Wallet">Deposit wallet</Options>
                             <Options value="with referral">Withdrawal wallet</Options>
                             <Options value="with referral">Bitcoin Wallet</Options>
-                            {/* <options>Bitcoin</options> */}
+                            <options>Bitcoin</options>
                         </Select>
                     </InputHold>
-                </Two>
-                <Three>
+                </Two> */}
+                {/* <Three>
                 <InputHold>
                         <Name>Select Payment method</Name>
                         <Input placeholder="3000.00">
                         </Input>
                     </InputHold>
-                </Three>
+                </Three> */}
                 <Button to='/walletpage'>Create Order</Button>
             </Wrapper>
         </Container>
