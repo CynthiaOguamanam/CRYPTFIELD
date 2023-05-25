@@ -118,18 +118,16 @@ font-weight: 500;
 color: whitesmoke;
 
 `;
-const Left =styled.div`
-width: 30%;
-/* background-color:red; */
-padding:10px;
-display: flex;
-flex-direction: column;
-/* justify-content: flex-start; */
-align-items: flex-start;
-color: whitesmoke;
-font-size: 16px;
-font-weight: bold;
-`;
+// const Left =styled.div`
+// width: 30%;
+// padding:10px;
+// display: flex;
+// flex-direction: column;
+// align-items: flex-start;
+// color: whitesmoke;
+// font-size: 16px;
+// font-weight: bold;
+// `;
 const One =styled.div`
 width: 100%;
 width: 98%;
@@ -193,7 +191,7 @@ margin-top: 20px;
 const Bal =styled.div`
 color: #FF4D4D;
 `;
-const Balance =styled.div``;
+// const Balance =styled.div``;
 // const Button =styled.div``;
 
 
