@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export const Container = styled.div`
 width: 100%;
-height: 110px;
+height: 90px;
 background-color:  #111D32;
 display: flex;
 flex-direction: column;
@@ -12,7 +12,7 @@ align-items: center;
 z-index: 1000;
 /* display: none; */
 @media Screen and (max-width: 768px){
-    height: 120px;
+    height: 60px;
     width: 100%;
     background: linear-gradient(45deg, #111D32,#000911ef);;
 
