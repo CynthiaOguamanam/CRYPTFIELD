@@ -34,7 +34,8 @@ import Stock from './Components/FooterNew/Stock'
 import Forex from './Components/FooterNew/Forex'
 import Farm from './Components/FooterNew/Farm'
 import Multiassets from './Components/FooterNew/Multiassets'
-// import Crypto from './Components/FooterNew/Stock'
+import ForgotPassword from './Components/Auth/Forgotpassword.js'
+import Resetpassword from './Components/Auth/ResetPassword'
 import BankTransfer from './Dashboard2/Withdraw/bankdetail';
 
 const App = () => {
@@ -45,6 +46,8 @@ const App = () => {
         <Route path='/' element={<Landing/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<SignUp/>}/>
+        <Route path='/forgotpassword' element={<ForgotPassword/>}/>
+        <Route path='/resetpassword' element={<Resetpassword/>}/>
         <Route path="/affiliate" element={<Affiliate/>}/>
         <Route path="/stock" element={<Stock/>}/>
         <Route path="/forex" element={<Forex/>}/>

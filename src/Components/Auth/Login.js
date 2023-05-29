@@ -87,7 +87,7 @@ const Login = () => {
                     <Label><BsFillLockFill style={{marginRight:"2%" }}/>Password*</Label>
                     <Input type="password" placeholder='Qwerty123!@#' value={password} onChange ={(e)=>{setPassword(e.target.value)}} required/>
                     <Button>{loading ? <SpinnerCircular size={25} thickness={100} speed={100} color="rgba(255, 255, 255, 1)" secondaryColor="rgba(0, 0, 0, 0.44)" /> : "Log in"}</Button>
-                    <PassWordText><span style={{color: "#FF4D4D", cursor: "pointer", textDecoration: "underline"}}>Forgot your password?</span></PassWordText>
+                    <PassWordText to='/forgotpassword'><span style={{color: "#FF4D4D", cursor: "pointer", textDecoration: "underline"}}>Forgot your password?</span></PassWordText>
                 </Form>
             </Card>
         </Wrapper>

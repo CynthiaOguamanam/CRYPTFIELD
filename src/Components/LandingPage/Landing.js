@@ -63,7 +63,14 @@ top: 0;
 display: flex;
 justify-content: center;
 align-items: center;
+// animation-direction: alternate-reverse; 
+// animation-duration: 4s;
+// animation-iteration-count: 2;
+// animation-name: example;
 
+// @keyframes example {
+//   0%   {background-color: #101C30;}
+// }
 `;
 
 

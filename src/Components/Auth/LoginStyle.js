@@ -112,7 +112,7 @@ export const Input = styled.input`
 
 `
 
-export const PassWordText = styled.div`
+export const PassWordText = styled(Link)`
     min-height: 50px;
     color: white;
     font-family: sans-serif, monospace;
